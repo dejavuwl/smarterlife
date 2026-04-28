@@ -1,0 +1,228 @@
+{
+  "@@locale": "zh",
+
+  "loadingData": "正在加载你的数据…",
+  "loadingTodayData": "正在加载今日数据…",
+
+  "appTagline": "更轻一点，也更稳一点",
+  "appSubtitle": "把饮食、运动和体重记录放进一个更清爽的每日视图。",
+  "accountTooltip": "账户",
+  "switchToEmail": "切换到邮箱登录",
+  "switchToGoogle": "切换到 Google 登录",
+  "switchToApple": "切换到 Apple 登录",
+  "quickEntryEyebrow": "快捷入口",
+  "quickEntryTitle": "今天要记录什么？",
+  "quickEntrySubtitle": "三个高频入口放在同一层，减少跳转和搜索。",
+  "logMealTitle": "记录饮食",
+  "logMealSubtitle": "用自然语言描述你刚吃了什么",
+  "logWorkoutTitle": "记录运动",
+  "logWorkoutSubtitle": "补充今天的训练和额外消耗",
+  "updateWeightTitle": "更新体重",
+  "updateWeightSubtitle": "同步最新体重并重新估算计划",
+  "aiSuggestionEyebrow": "AI 建议",
+  "aiSuggestionTitle": "今日智能建议",
+  "aiSuggestionSubtitle": "根据当前饮食和运动数据，生成个性化的剩余计划。",
+  "viewRecommendation": "查看建议",
+  "loginSwitchFailed": "登录切换失败，请稍后再试",
+  "emailLabel": "邮箱",
+  "passwordLabel": "密码",
+  "cancel": "取消",
+  "confirmBinding": "确认绑定",
+  "emailBindingFailed": "邮箱绑定失败，请检查信息后重试",
+
+  "dailyOverviewEyebrow": "每日概览",
+  "dailyStatusTitle": "今天的身体与热量状态",
+  "remainingIntake": "剩余摄入",
+  "currentWeight": "当前体重",
+  "targetWeightMetric": "目标体重",
+  "todayIntake": "今日摄入",
+  "todayBurn": "今日消耗",
+  "deficitTarget": "缺口目标",
+  "bmrTdee": "基础代谢 / TDEE",
+  "planProgress": "计划推进度",
+  "today": "今日",
+
+  "logMealAppBar": "记录饮食",
+  "saving": "保存中…",
+  "saveItems": "保存 {count} 项",
+  "@saveItems": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mealEyebrow": "餐食",
+  "describeMealTitle": "描述你刚吃的食物",
+  "describeMealSubtitle": "用自然语言描述，应用会将文字拆分为可编辑的食物条目后再保存。",
+  "mealInputHint": "例如：200克米饭、一块鸡胸肉、一杯酸奶",
+  "analyzeButton": "分析",
+  "hideHistory": "隐藏历史",
+  "foodHistory": "食物历史",
+  "frequentFoodsEmpty": "保存餐食后，常用食物将显示在这里。",
+  "addFromHistory": "从历史添加",
+  "draftEyebrow": "草稿",
+  "draftItemsReady": "{count} 项待保存",
+  "@draftItemsReady": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "draftSubtitle": "仍可调整数量或热量估算后再保存。",
+  "total": "合计",
+  "refineCaloriesFor": "调整 {name} 的热量",
+  "@refineCaloriesFor": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "currentEstimate": "当前估算：{estimate} 千卡 {unit}",
+  "@currentEstimate": {
+    "placeholders": {
+      "estimate": { "type": "String" },
+      "unit": { "type": "String" }
+    }
+  },
+  "extraContextLabel": "额外备注",
+  "extraContextHint": "例如：额外加油、低脂版本、成品食品、加了酱",
+  "suggestedEstimate": "建议估算：{calories} 千卡 {unit}",
+  "@suggestedEstimate": {
+    "placeholders": {
+      "calories": { "type": "String" },
+      "unit": { "type": "String" }
+    }
+  },
+  "apply": "应用",
+  "useAI": "使用 AI",
+  "quantityLabel": "数量",
+  "densityLabel": "密度",
+  "itemTotalLabel": "单项合计",
+  "adjustQuantity": "调整数量",
+  "refineCaloriesButton": "精调热量",
+  "mealsSaved": "餐食已保存",
+  "recommendationQuestion": "想查看今日剩余时段的最新建议吗？",
+  "later": "稍后",
+  "openRecommendation": "查看建议",
+  "failedSaveMeals": "保存餐食失败：{error}",
+  "@failedSaveMeals": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "failedParseFoodInput": "解析食物输入失败：{error}",
+  "@failedParseFoodInput": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "refinementFailed": "精调失败：{error}",
+  "@refinementFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "caloriesPerUnit": "每 {unit}",
+  "@caloriesPerUnit": {
+    "placeholders": {
+      "unit": { "type": "String" }
+    }
+  },
+  "caloriesPer100Unit": "每 100{unit}",
+  "@caloriesPer100Unit": {
+    "placeholders": {
+      "unit": { "type": "String" }
+    }
+  },
+  "usedNTimes": "已使用 {n} 次",
+  "@usedNTimes": {
+    "placeholders": {
+      "n": { "type": "int" }
+    }
+  },
+
+  "logWorkoutAppBar": "记录运动",
+  "workoutEyebrow": "运动",
+  "addTrainingTitle": "添加今日训练",
+  "addTrainingSubtitle": "记录运动名称、时长和强度，以便统计今日消耗热量。",
+  "workoutTypeLabel": "运动类型",
+  "workoutTypeHint": "例如：跑步、散步、骑车、力量训练",
+  "durationLabel": "时长",
+  "minutesLabel": "分钟",
+  "intensityLabel": "强度",
+  "lowIntensity": "低",
+  "mediumIntensity": "中",
+  "highIntensity": "高",
+  "saveWorkoutButton": "保存运动",
+  "enterWorkoutTypeFirst": "请先输入运动类型。",
+  "failedSaveWorkout": "保存运动失败：{error}",
+  "@failedSaveWorkout": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "setupEyebrow": "初始设置",
+  "createProfileTitle": "创建你的身体档案",
+  "createProfileSubtitle": "这些数据用于估算热量目标、进度和每日建议。",
+  "heightLabel": "身高（厘米）",
+  "currentWeightFieldLabel": "当前体重（千克）",
+  "targetWeightFieldLabel": "目标体重（千克）",
+  "targetDaysLabel": "目标天数",
+  "genderLabel": "性别（可选）",
+  "maleOption": "男",
+  "femaleOption": "女",
+  "ageLabel": "年龄（可选）",
+  "createProfileButton": "创建档案",
+  "requiredError": "必填项",
+  "invalidNumberError": "请输入有效数字",
+  "mustBePositiveError": "必须大于 0",
+  "failedCreateProfile": "创建档案失败：{error}",
+  "@failedCreateProfile": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "updateWeightAppBar": "更新体重",
+  "weightEyebrow": "体重",
+  "syncWeightTitle": "同步最新体重",
+  "syncWeightSubtitle": "更新后，应用将刷新今日热量目标和建议数据。",
+  "currentRecordLabel": "当前记录",
+  "weightKgLabel": "体重（千克）",
+  "weightHint": "例如：72.4",
+  "updateWeightButton": "更新体重",
+  "invalidWeightError": "请输入有效的体重（千克）。",
+  "failedUpdateWeight": "更新体重失败：{error}",
+  "@failedUpdateWeight": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "dailyRecommendationTitle": "每日建议",
+  "reloadTooltip": "重新加载",
+  "targetIntakeLabel": "目标摄入",
+  "remainingLabel": "剩余",
+  "exerciseTab": "运动",
+  "estimatedBurnLabel": "预计消耗",
+  "belowTargetStatus": "摄入低于目标",
+  "tighterControlStatus": "计划需更严格把控",
+  "onTrackStatus": "今日进展良好",
+  "failedLoadRecommendation": "加载建议失败",
+  "retry": "重试",
+  "preferencesHint": "添加偏好备注，如晚餐少吃或多走路。",
+  "regenerateButton": "重新生成",
+  "noExerciseRecommended": "今日无额外运动建议，正常活动即可。",
+
+  "recommendationHistoryTooltip": "历史记录",
+  "recommendationHistoryTitle": "建议历史",
+  "noRecommendationHistory": "暂无历史建议。在每日建议页面生成第一条吧。",
+  "bodyStatusAtTime": "生成时的身体状态",
+  "planProgressAtTime": "生成时的计划进度",
+  "daysElapsed": "已过天数",
+  "daysRemaining": "剩余天数",
+  "generatedOn": "生成于 {date}",
+  "@generatedOn": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  }
+}

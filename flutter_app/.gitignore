@@ -1,0 +1,44 @@
+# Dart / Flutter generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Android
+android/local.properties
+android/.gradle/
+android/captures/
+android/key.jks
+android/key.properties
+
+# iOS
+ios/.symlinks/
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Firebase — never commit real config files
+google-services.json
+GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Environment
+.env
+*.env.local
+
+# Coverage
+coverage/

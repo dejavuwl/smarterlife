@@ -1,0 +1,228 @@
+{
+  "@@locale": "en",
+
+  "loadingData": "Loading your data…",
+  "loadingTodayData": "Loading today's data…",
+
+  "appTagline": "Lighter and steadier, one day at a time",
+  "appSubtitle": "Track meals, workouts, and weight in one clean daily view.",
+  "accountTooltip": "Account",
+  "switchToEmail": "Switch to email login",
+  "switchToGoogle": "Switch to Google login",
+  "switchToApple": "Switch to Apple login",
+  "quickEntryEyebrow": "Quick Entry",
+  "quickEntryTitle": "What do you want to record today?",
+  "quickEntrySubtitle": "Three shortcuts in one place — fewer taps, less searching.",
+  "logMealTitle": "Log Meal",
+  "logMealSubtitle": "Describe what you just ate in natural language",
+  "logWorkoutTitle": "Log Workout",
+  "logWorkoutSubtitle": "Add today's training and extra calorie burn",
+  "updateWeightTitle": "Update Weight",
+  "updateWeightSubtitle": "Sync latest weight and recalculate your plan",
+  "aiSuggestionEyebrow": "AI Recommendation",
+  "aiSuggestionTitle": "Today's Smart Recommendation",
+  "aiSuggestionSubtitle": "Generate a personalized plan for the rest of today based on your current diet and workout data.",
+  "viewRecommendation": "View recommendation",
+  "loginSwitchFailed": "Login switch failed, please try again later",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "cancel": "Cancel",
+  "confirmBinding": "Confirm",
+  "emailBindingFailed": "Email binding failed, please check and retry",
+
+  "dailyOverviewEyebrow": "Daily overview",
+  "dailyStatusTitle": "Today's body & calorie status",
+  "remainingIntake": "Remaining intake",
+  "currentWeight": "Current weight",
+  "targetWeightMetric": "Target weight",
+  "todayIntake": "Today's intake",
+  "todayBurn": "Today's burn",
+  "deficitTarget": "Deficit target",
+  "bmrTdee": "BMR / TDEE",
+  "planProgress": "Plan progress",
+  "today": "Today",
+
+  "logMealAppBar": "Log Meal",
+  "saving": "Saving...",
+  "saveItems": "Save {count} items",
+  "@saveItems": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mealEyebrow": "Meal",
+  "describeMealTitle": "Describe what you just ate",
+  "describeMealSubtitle": "Use natural language, and the app will split the text into editable food items before saving.",
+  "mealInputHint": "For example: 200g rice, one chicken breast, one yogurt",
+  "analyzeButton": "Analyze",
+  "hideHistory": "Hide history",
+  "foodHistory": "Food history",
+  "frequentFoodsEmpty": "Your frequently used foods will appear here after you save meals.",
+  "addFromHistory": "Add from history",
+  "draftEyebrow": "Draft",
+  "draftItemsReady": "{count} item(s) ready to save",
+  "@draftItemsReady": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "draftSubtitle": "You can still adjust quantity or refine the calorie estimate before saving.",
+  "total": "Total",
+  "refineCaloriesFor": "Refine calories for {name}",
+  "@refineCaloriesFor": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "currentEstimate": "Current estimate: {estimate} kcal {unit}",
+  "@currentEstimate": {
+    "placeholders": {
+      "estimate": { "type": "String" },
+      "unit": { "type": "String" }
+    }
+  },
+  "extraContextLabel": "Extra context",
+  "extraContextHint": "For example: extra oil, low-fat version, packaged food, added sauce",
+  "suggestedEstimate": "Suggested estimate: {calories} kcal {unit}",
+  "@suggestedEstimate": {
+    "placeholders": {
+      "calories": { "type": "String" },
+      "unit": { "type": "String" }
+    }
+  },
+  "apply": "Apply",
+  "useAI": "Use AI",
+  "quantityLabel": "Quantity",
+  "densityLabel": "Density",
+  "itemTotalLabel": "Item total",
+  "adjustQuantity": "Adjust quantity",
+  "refineCaloriesButton": "Refine calories",
+  "mealsSaved": "Meals saved",
+  "recommendationQuestion": "Do you want to see an updated recommendation for the rest of today?",
+  "later": "Later",
+  "openRecommendation": "Open recommendation",
+  "failedSaveMeals": "Failed to save meals: {error}",
+  "@failedSaveMeals": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "failedParseFoodInput": "Failed to parse food input: {error}",
+  "@failedParseFoodInput": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "refinementFailed": "Refinement failed: {error}",
+  "@refinementFailed": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "caloriesPerUnit": "per {unit}",
+  "@caloriesPerUnit": {
+    "placeholders": {
+      "unit": { "type": "String" }
+    }
+  },
+  "caloriesPer100Unit": "per 100{unit}",
+  "@caloriesPer100Unit": {
+    "placeholders": {
+      "unit": { "type": "String" }
+    }
+  },
+  "usedNTimes": "used {n} times",
+  "@usedNTimes": {
+    "placeholders": {
+      "n": { "type": "int" }
+    }
+  },
+
+  "logWorkoutAppBar": "Log Workout",
+  "workoutEyebrow": "Workout",
+  "addTrainingTitle": "Add today's training session",
+  "addTrainingSubtitle": "Record the workout name, duration, and intensity so the daily summary can reflect calories burned.",
+  "workoutTypeLabel": "Workout type",
+  "workoutTypeHint": "For example: run, walk, cycling, strength",
+  "durationLabel": "Duration",
+  "minutesLabel": "Minutes",
+  "intensityLabel": "Intensity",
+  "lowIntensity": "Low",
+  "mediumIntensity": "Medium",
+  "highIntensity": "High",
+  "saveWorkoutButton": "Save workout",
+  "enterWorkoutTypeFirst": "Enter a workout type first.",
+  "failedSaveWorkout": "Failed to save workout: {error}",
+  "@failedSaveWorkout": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "setupEyebrow": "Setup",
+  "createProfileTitle": "Create your body profile",
+  "createProfileSubtitle": "These numbers are used to estimate calorie targets, progress, and daily recommendations.",
+  "heightLabel": "Height (cm)",
+  "currentWeightFieldLabel": "Current weight (kg)",
+  "targetWeightFieldLabel": "Target weight (kg)",
+  "targetDaysLabel": "Target days",
+  "genderLabel": "Gender (optional)",
+  "maleOption": "Male",
+  "femaleOption": "Female",
+  "ageLabel": "Age (optional)",
+  "createProfileButton": "Create profile",
+  "requiredError": "Required",
+  "invalidNumberError": "Enter a valid number",
+  "mustBePositiveError": "Must be greater than 0",
+  "failedCreateProfile": "Failed to create profile: {error}",
+  "@failedCreateProfile": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "updateWeightAppBar": "Update Weight",
+  "weightEyebrow": "Weight",
+  "syncWeightTitle": "Sync your latest weight",
+  "syncWeightSubtitle": "After updating, the app refreshes today's calorie target and recommendation data.",
+  "currentRecordLabel": "Current record",
+  "weightKgLabel": "Weight (kg)",
+  "weightHint": "For example: 72.4",
+  "updateWeightButton": "Update weight",
+  "invalidWeightError": "Enter a valid weight in kilograms.",
+  "failedUpdateWeight": "Failed to update weight: {error}",
+  "@failedUpdateWeight": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "dailyRecommendationTitle": "Daily Recommendation",
+  "reloadTooltip": "Reload",
+  "targetIntakeLabel": "Target intake",
+  "remainingLabel": "Remaining",
+  "exerciseTab": "Exercise",
+  "estimatedBurnLabel": "Estimated burn",
+  "belowTargetStatus": "Below target intake",
+  "tighterControlStatus": "Plan needs tighter control",
+  "onTrackStatus": "On track for today",
+  "failedLoadRecommendation": "Failed to load recommendation",
+  "retry": "Retry",
+  "preferencesHint": "Add preference notes, such as lighter dinner or more walking.",
+  "regenerateButton": "Regenerate",
+  "noExerciseRecommended": "No extra exercise is recommended today. A normal activity level is enough.",
+
+  "recommendationHistoryTooltip": "History",
+  "recommendationHistoryTitle": "Recommendation History",
+  "noRecommendationHistory": "No past recommendations yet. Generate your first one from the Daily Recommendation screen.",
+  "bodyStatusAtTime": "Body Status at Generation Time",
+  "planProgressAtTime": "Plan Progress at Generation Time",
+  "daysElapsed": "Days elapsed",
+  "daysRemaining": "Days remaining",
+  "generatedOn": "Generated on {date}",
+  "@generatedOn": {
+    "placeholders": {
+      "date": { "type": "String" }
+    }
+  }
+}

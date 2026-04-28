@@ -1,0 +1,74 @@
+# ── Rust / Backend ──────────────────────────────────────────────────────────
+backend/target/
+backend/.rustc_info.json
+
+# ── Flutter / Dart ──────────────────────────────────────────────────────────
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/.pub-cache/
+flutter_app/.pub/
+flutter_app/doc/api/
+
+# Generated files
+flutter_app/**/*.g.dart
+flutter_app/**/*.freezed.dart
+flutter_app/**/*.mocks.dart
+
+# Android
+flutter_app/android/.gradle/
+flutter_app/android/.kotlin/
+flutter_app/android/captures/
+flutter_app/android/local.properties
+flutter_app/android/key.properties
+flutter_app/android/**/*.keystore
+flutter_app/android/**/*.jks
+flutter_app/android/app/google-services.json
+
+# iOS
+flutter_app/ios/Pods/
+flutter_app/ios/.symlinks/
+flutter_app/ios/Flutter/flutter_export_environment.sh
+flutter_app/ios/Runner/GeneratedPluginRegistrant.*
+flutter_app/ios/GoogleService-Info.plist
+
+# macOS
+flutter_app/macos/Pods/
+flutter_app/macos/.symlinks/
+flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift
+flutter_app/macos/Flutter/ephemeral/
+
+# Linux
+flutter_app/linux/flutter/ephemeral/
+
+# Windows
+flutter_app/windows/flutter/ephemeral/
+
+# Web
+flutter_app/web/flutter_service_worker.js
+
+# ── GCP / Secrets ───────────────────────────────────────────────────────────
+*-service-account*.json
+*-credentials*.json
+service-account.json
+credentials.json
+gcp-key.json
+.env
+.env.*
+!.env.example
+
+# ── IDE ─────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini

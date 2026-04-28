@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"M:\\\\SIDES\\\\smarterlife\\\\flutter_app\\\\lib\" -type f -name \"*.dart\" -exec echo \"=== {} ===\" \\\\; -exec wc -l {} \\\\;)",
+      "Bash(cargo check *)",
+      "Bash(flutter gen-l10n *)",
+      "Bash(flutter pub *)",
+      "Bash(flutter analyze *)",
+      "Bash(git rm *)",
+      "Bash(git add *)"
+    ]
+  }
+}

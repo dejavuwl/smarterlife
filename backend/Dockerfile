@@ -1,4 +1,4 @@
-FROM rust:1.82-slim AS builder
+FROM rust:1.85-slim AS builder
 WORKDIR /app
 
 # 依赖缓存层：仅 Cargo 文件变更时才重新下载依赖
